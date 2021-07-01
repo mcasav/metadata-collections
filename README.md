@@ -1,4 +1,4 @@
-# Message is not all you need – Paying attentionto post’s and author’s metadata to spot abusivecomments in Twitter
+# Message is not all you need – Paying attention to post’s and author’s metadata to spot abusive comments in Twitter
 Repository for *reference to paper, TBD*
 
 # Metadata-collections
