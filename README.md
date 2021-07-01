@@ -1,5 +1,7 @@
-# metadata-collections
+# Message is not all you need – Paying attentionto post’s and author’s metadata to spot abusivecomments in Twitter
+Repository for *reference to paper, TBD*
 
+# Metadata-collections
 Here we provide the metadata-extended parts of previously annotated abusive language datasets.
 
 Each collection contains a set of discretized metadata features, associated to tweets used as samples in abusive language detection tasks.
@@ -12,6 +14,9 @@ For the Benevolent Sexism Dataset, we considered the original order of the sampl
 Dataset Index "#1" references tweet id "839880162586071040" and Dataset Index "#7205" references tweet id "839850933987196928".
 
 The "user:masked_username" feature is independent between datasets (username_1 from one collection isn't the same as username_1 from a different file, except between "Waseem" and "Benevolent Sexism").
+
+Boolean type metadata was discretized as "yes/no" features.
+Integer type metadata was discretized as bins (the number of bins provided is the same as the ones used to get the best results in our research if the feature was included, or 5 as a default parameter if the metadata feature wasn't considered).
 
 These collections are meant to be used together with their respective abusive language dataset. For samples and labels, please refer to the original works.
 
@@ -108,4 +113,11 @@ If using `MEX-A3T-2020_MD.csv`, consult:
   booktitle={Notebook Papers of 2nd SEPLN Workshop on Iberian Languages Evaluation Forum (IberLEF), Malaga, Spain, September},
   year={2020}
 }
+~~~
+
+
+
+Please cite our paper in any published work that uses any of the metadata collections:
+~~~
+TBD
 ~~~
